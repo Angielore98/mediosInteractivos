@@ -41,27 +41,30 @@ strokeWeight(2); // Tamaño pincel
 stroke(0); // Color pincel
 line(194,140,192,38); // Dibujar linea
 strokeWeight(3); // Tamaño pincel
-stroke(0,0,0,); // Color pincel
+stroke(0,0,0); // Color pincel
 line(180,80,220,80); // Dibujar linea
 	strokeWeight(2); // Tamaño pincel
 stroke(0,0,0,100); // Color pincel
 line(175,72,212,72); // Dibujar linea
 	strokeWeight(2); // Tamaño pincel
-stroke(0,0,0,); // Color pincel
+stroke(0,0,0); // Color pincel
 line(170,40,240,72); // Dibujar linea
 	stroke(0,0,0);
-fill(101,165,206,150);
+fill(0,0,0);
 beginShape(); // Iniciar una figura
 vertex(170,300); // Crear un vertice
 vertex(180,292);
 vertex(82,243);
 	vertex(80,248);
-endShape(); // Cerrar una figura
+endShape(CLOSE); // Cerrar una figura
+  strokeWeight(2); // Tamaño pincel
+stroke(0,0,0); // Color pincel
+line(65,195,270,140); // Dibujar linea
 	strokeWeight(10); // Tamaño pincel
 stroke(255,255,0); // Color de la linea
 fill(0,0,255); // Color del relleno
 	strokeWeight(10); // Tamaño pincel
-	stroke(0,0,0,); // Color pincel
+	stroke(0,0,0); // Color pincel
   fill(0, 0, 0,0);
 	curve(220, 90, 210,110, 190, 130,160,130)
  arc(215,90,160,130,0, PI+HALF_PI, OPEN);
