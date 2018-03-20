@@ -25,9 +25,7 @@ function draw(){
   micLevel = mic.getLevel();
   ellipse((width/2)+(width/3), constrain(height/2-micLevel*height/2*5, 0, height/2), constrain(height/2-micLevel*height/2*5, 0, height/2), 10);
   
-  background(0)
-   miS.setVolume(map(mouseY, windowHeight, 0, 0.0, 1.0));
-
+  
   fill(0)
   rect(0,400,width,height)
   
